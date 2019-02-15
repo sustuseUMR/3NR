@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://sustuseumr.github.io/3NR/"
 languageCode = "en-us"
 title = "Vietnam Test"
 theme = "hugo-lithium-theme"
