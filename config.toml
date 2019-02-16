@@ -4,6 +4,7 @@ title = "Vietnam Test"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
+publishDir = "docs"
 
 [permalinks]
     post = "/:year/:month/:day/:title/"
