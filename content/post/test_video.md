@@ -5,5 +5,7 @@ draft: false
 description: "Ein erstes video um google video analytics zu testen"
 ---
 
-{{< vimeo 21890858 >}}
+<iframe src="https://player.vimeo.com/video/21890858?api=1&player_id=vimeo-player-1" id="vimeo-player-1" width="640" height="390" frameborder="0" data-progress="true" data-seek="true" data-bounce="true" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script src="path/to/vimeo.ga.min.js"></script>
 
