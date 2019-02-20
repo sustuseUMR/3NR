@@ -9,7 +9,7 @@ publishDir = "docs"
 [permalinks]
     post = "/:year/:month/:day/:title/"
     page = "/:title/"
-
+  
 [[menu.main]]
     name = "About"
     url = "/about/"
@@ -25,7 +25,7 @@ publishDir = "docs"
 
     # path to the favicon, under "static"
     favicon = "favicon.ico"
-
+	 
     [params.logo]
     url = "logo.png"
     width = 50
