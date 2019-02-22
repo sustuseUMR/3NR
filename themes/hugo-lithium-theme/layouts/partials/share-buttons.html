@@ -1,0 +1,11 @@
+<!-- Facebook -->
+{{ if .Site.Params.socialShareFacebook | default true}}
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+	 <p>Facebook</p>
+    </a>
+</li>
+{{ end }}
