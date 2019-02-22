@@ -28,6 +28,25 @@
 <link rel="stylesheet" href="https://sustuseumr.github.io/vietnam/css/main.css" media="all">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134609366-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-134609366-1');
+</script>
+<script>
+
+
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script>
   </head>
   <body>
     <div class="wrapper">
@@ -106,16 +125,7 @@ if (!doNotTrack) {
 }
 </script>
 
-  <script>
-
-
-var trackOutboundLink = function(url) {
-   ga('send', 'event', 'outbound', 'click', url, {
-     'transport': 'beacon',
-     'hitCallback': function(){document.location = url;}
-   });
-}
-</script>
+  
 
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
