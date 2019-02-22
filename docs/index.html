@@ -23,26 +23,6 @@
 <link href="https://sustuseumr.github.io/vietnam/index.xml" rel="alternate" type="application/rss+xml" title="Vietnam Test" />
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134609366-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-134609366-1');
-</script>
-
-<script>
-
-
-var trackOutboundLink = function(url) {
-   ga('send', 'event', 'outbound', 'click', url, {
-     'transport': 'beacon',
-     'hitCallback': function(){document.location = url;}
-   });
-}
-</script>
-
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="icon" href="https://sustuseumr.github.io/vietnam/images/favicon.ico" type="image/x-icon"/>
 <link rel="stylesheet" href="https://sustuseumr.github.io/vietnam/css/main.css" media="all">
@@ -67,6 +47,29 @@ var trackOutboundLink = function(url) {
   </ul>
 </nav>
 
+		
+		
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134609366-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-134609366-1');
+</script>
+
+<script>
+
+
+var trackOutboundLink = function(url) {
+  gtag('event', 'clic', {
+    'event_category': 'saliente',
+    'event_label': url,
+    'transport_type': 'beacon',
+    'event_callback': function(){document.location = url;}
+  });
+}
+
+</script>
       </header>
 
 
@@ -102,16 +105,11 @@ var trackOutboundLink = function(url) {
 
 <div id="share">
 	
-	<a class="facebook" href="https://www.facebook.com/share.php?u=https%3a%2f%2fsustuseumr.github.io%2fvietnam%2f"
-		onclick="trackOutboundLink('https://www.facebook.com/share.php?u=https:\/\/sustuseumr.github.io\/vietnam\/')
-		;return false;">https://www.facebook.com/share.php?u=https://sustuseumr.github.io/vietnam/&lt;
-		target="blank">
+	<a class="facebook"
+	href="https://www.facebook.com/share.php?u=https%3a%2f%2fsustuseumr.github.io%2fvietnam%2f" target="_blank">
 	<i class="fab fa-facebook fa-8x"></i>
 	</a>
 </div>
-
-
-
 
         </ul>
     </section>
