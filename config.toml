@@ -1,7 +1,7 @@
 baseurl = "https://sustuseumr.github.io/vietnam/"
 
 languageCode = "en-us"
-title = "Vietnam Test"
+title = "Vietnam"
 theme = "hugo-lithium-theme"
 
 disqusShortname = ""
