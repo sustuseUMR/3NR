@@ -29,8 +29,8 @@ publishDir = "docs"
 	 
     [params.logo]
     url = "logo.png"
-    width = 50
-    height = 50
+    width = 125
+    height = 30
     alt = "Logo"
 
     [params.icon]
