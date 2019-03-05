@@ -8,18 +8,18 @@ disqusShortname = ""
 publishDir = "docs"
 
 [permalinks]
-    post = "/:year/:month/:day/:title/"
+    post = "/:title/"
     page = "/:title/"
   
 [[menu.main]]
     name = "About"
     url = "/about/"
 #[[menu.main]]
-#    name = "GitHub"
-#    url = ""
+#    name = "SLR Video"
+#    url = "/slr/"
 #[[menu.main]]
-#   name = "Twitter"
-#    url = ""
+#   name = "Groundwater Video"
+#    url = "/groundwater/"
 
 [params]
     description = ""
