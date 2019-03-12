@@ -1,8 +1,8 @@
 ---
-title: "SLR"
+title: "Global warming and the effect of sea level rise on the Mekong Delta"
 date: 2019-02-15T18:44:54+01:00
 draft: false
-description: ""
+description: "A short informational video on who contributes to the impact of sea level rise in the Mekong Delta."
 ---
 
 

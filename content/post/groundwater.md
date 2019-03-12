@@ -1,8 +1,8 @@
 ---
-title: "Groundwater"
+title: "Groundwater exploitation and land subsidence in the Mekong Delta"
 date: 2019-02-15T18:44:54+01:00
 draft: false
-description: ""
+description: "A short informational video on who contributes to the impact of excessice groundwater extraction in the Mekong Delta."
 ---
 
 
