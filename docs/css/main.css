@@ -340,3 +340,15 @@ text-align: center;
 }
  
 </style>
+
+$('#demo').likeDislike({
+  click: null, // callback
+  beforeClick: null, // callback
+  initialValue: 0,
+  reverseMode: false,
+  readOnly: false,
+  likeBtnClass: 'like',
+  dislikeBtnClass: 'dislike',
+  activeClass: 'active',
+  disableClass: 'disable'
+});

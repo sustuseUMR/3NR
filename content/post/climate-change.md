@@ -7,6 +7,8 @@ description: "A short informational video on who contributes to the impact of se
 
 
 {{< vimeo 322867247 >}}
+
 <i class="fab fa-facebook-square fa-2x"></i>
 <a href="https://www.facebook.com/sharer/sharer.php?u=https://sustuseumr.github.io/vietnam/slr/" target="_blank">Share on Facebook</a>
 
+<div class="fb-like" data-href="https://sustuseumr.github.io/vietnam/slr/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
